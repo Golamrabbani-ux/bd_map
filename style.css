@@ -1,0 +1,51 @@
+body{
+    background: lightgrey;
+}
+
+.container{
+    background-color: #f9f9f9;
+    height: 535px;
+    margin-top: 35px;
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    margin: 12px 0px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.5s;
+}
+ul li .active{
+    color: tomato;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: tomato;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul li a:active{
+    color: red;
+}
+
+.col-md-9{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+    /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
+    /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+    /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
+    /* background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%); */
+}
+
+img{
+    height: 535px;
+}
